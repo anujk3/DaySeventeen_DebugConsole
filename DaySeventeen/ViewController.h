@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)tappedButtonOne:(id)sender;
+- (IBAction)tappedButtonTwo:(id)sender;
+- (IBAction)tappedButtonThree:(id)sender;
+- (IBAction)tappedButtonFour:(id)sender;
 
 @end
 

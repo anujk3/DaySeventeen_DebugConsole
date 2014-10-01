@@ -14,6 +14,7 @@
 		65B50DBA19DC085E005D8B46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B50DB919DC085E005D8B46 /* Images.xcassets */; };
 		65B50DBD19DC085E005D8B46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B50DBB19DC085E005D8B46 /* LaunchScreen.xib */; };
 		65B50DC919DC085E005D8B46 /* DaySeventeenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B50DC819DC085E005D8B46 /* DaySeventeenTests.m */; };
+		65B50DD419DC6CC9005D8B46 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B50DD319DC6CC9005D8B46 /* CustomObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		65B50DC219DC085E005D8B46 /* DaySeventeenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaySeventeenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B50DC719DC085E005D8B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B50DC819DC085E005D8B46 /* DaySeventeenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaySeventeenTests.m; sourceTree = "<group>"; };
+		65B50DD219DC6CC9005D8B46 /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		65B50DD319DC6CC9005D8B46 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				65B50DB119DC085E005D8B46 /* AppDelegate.m */,
 				65B50DB319DC085E005D8B46 /* ViewController.h */,
 				65B50DB419DC085E005D8B46 /* ViewController.m */,
+				65B50DD219DC6CC9005D8B46 /* CustomObject.h */,
+				65B50DD319DC6CC9005D8B46 /* CustomObject.m */,
 				65B50DB619DC085E005D8B46 /* Main.storyboard */,
 				65B50DB919DC085E005D8B46 /* Images.xcassets */,
 				65B50DBB19DC085E005D8B46 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				65B50DB519DC085E005D8B46 /* ViewController.m in Sources */,
 				65B50DB219DC085E005D8B46 /* AppDelegate.m in Sources */,
 				65B50DAF19DC085E005D8B46 /* main.m in Sources */,
+				65B50DD419DC6CC9005D8B46 /* CustomObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
